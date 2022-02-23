@@ -8,6 +8,7 @@ metadata:
   name: zoneprinter
   namespace: zoneprinter
 spec:
+  replicas: 3
   selector:
     matchLabels:
       app: zoneprinter
